@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* This is the first nav or section decoration of the web page */
+
+.nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+}
+
+.nav1 > p > u{
+    color: white;
+}
+
+
+
+/* This is the first section */
+/* This is the first container */
+
+.first-container{
+    background-image: url('photo/Background\ Image.webp');
+    height: 800px;
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
+    position: relative;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+ 
+.container-sub1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    gap: 5px;
+}
+
+.container-sub1 > div h1{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+
+.container-sub1 > div h1:hover{
+    cursor: pointer;
+}
+
+
+.airbnb-icon{
+    width: 30px;
+    height: 32px;
+    color: #ffffff;
+}
+
+.container-sub1 > .airbnb-icon:hover{
+    cursor: pointer;
+}
+
+
+.container-sub2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 140px;
+}
+
+.container-sub2 p{
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 15px;
+    height: 30px; 
+}
+
+.container-sub2 p:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;    
+}
+
+.container-sub3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 60px;
+}
+
+.container-sub3 > .Become-host{
+    color: #ffffff;
+    font-size: 16px;
+    
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    border-radius: 24px;
+    padding-top: 10px;
+}
+
+.container-sub3 > .Become-host:hover{
+    cursor: pointer;
+    background-color: #d4d1d1;
+}
+
+.container-sub3 > .bars-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    background-color: #ffffff;
+    width: 90px;
+    height: 45px;
+    border-radius: 24px;
+}
+
+.globe-sub{
+    width: 16px;
+    height: 16px;
+    padding-top: 12px; 
+}
+
+.globe{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 24px;
+}
+
+.globe:hover{
+    cursor: pointer;
+    background-color: #e0dede;  
+    
+}
+
+.bars{
+    width: 16px;
+    height: 16px;
+    color: #ffffff;
+}
+
+.bars:hover{
+    cursor: pointer;
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+    background-color: #a5a3a3;
+    border-radius: 50%;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.profile:hover{
+    cursor: pointer;
+}
+
+.container-sub3 > .bars-profile >.profile > .profile-user{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/* This is the second section */
+
+.container2{
+    background-color: rgb(247, 249, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 830px;
+    height: 70px;
+    justify-self: center;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input{
+    border-right: 1px solid gray;
+    height: 50px;
+}
+
+.search-icon{
+    width: 16px;
+    height: 16px;
+}
+
+.search-sub{
+   width: 150px;
+   height: 40px;
+   padding-left: 20px;
+   padding-top: 10px;
+   border-radius: 24px;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+.search-sub:hover{
+    background-color: #eceaeaf7;
+    cursor: pointer;
+}
+
+input[type="text"],[type="number"] {
+    outline: none;
+    border: none;
+    width: 100px;
+    background: none; /* Removes any background */
+    background-color: transparent; /* Ensures the background is fully transparent */
+}
+
+input[type="text"]{
+    width: 130px;
+}
+
+.search-sub.one{
+    margin-left: -60px;
+    width: 155px;
+}
+
+.search-sub.four{
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+    position: relative;
+    padding-top: px;
+    height: 40px;
+}
+
+.search-icon{
+    border: none;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 73%;
+    text-align: center;
+    background-color: #fa215b;
+    border-radius: 50%;
+}
+
+.search-icon:hover{
+    opacity: 0.7;
+    cursor: pointer;
+
+
+}
+
+input[type="number"]{
+    width: 90pxpx;
+}
+
+.img-search-icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 12px; 
+}
+
+
+
+/* This is the third section  */
+
+.box-tripplan{
+    position: absolute;
+
+    bottom: 250px;
+    left: 90px;
+}
+
+.box-tripplan-text > h1{
+    width: 400px;
+    color: #FFFFFF;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.box-tripplan > .box-explore{
+    display: block;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 140px;
+    height: 25px;
+    padding-top: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    outline: none;
+    border: none;
+}
+
+.box-tripplan > .box-explore{
+    cursor: pointer;
+}
+
+
+
+
+/* This is the second container setion */
+
+.second-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+  gap: 20px; /* Space between the grid items */
+  padding: 20px; /* Padding around the container */
+  justify-content: center; /* Center the grid horizontally */
+}
+
+.second-container-sub{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.second-container-sub:hover{
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
+
+.second-container-pic{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;  
+}
+
+.second-container-sub h4 {
+    font-size: 18px;
+}
+
+.second-container-sub-title{
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+
+
+
+/* This is the third container setion */
+
+.third-container{
+    margin-top: 30px;
+}
+
+.third-container-title{
+    margin-left: 99px;
+    font-size: 35px;
+}
+
+.accommodations-container > .accommodation-box >img{
+    border-radius: 10px;
+    width: 320px;
+    height: 320px;
+}
+
+.accommodations-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.accommodations-container > .accommodation-box p{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.accommodation-box{
+    transition: transform 0.3s ease;
+}
+
+.accommodation-box:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+
+
+
+/* This is the forth container setion */
+
+.forth-container{
+    background-color: black;
+    margin-top: 45px;
+    height: 640px;
+}
+
+.forth-container > h1{
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffffff;
+    margin-left: 120px;
+    margin-top: 40px;
+    position: relative;
+    top: 55px;
+}
+
+.forth-container > p{
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 120px;
+    position: relative;
+    top: 55px;
+}
+
+
+.experiences-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+.experience-box > img{
+    border-radius: 10px;
+    width: 420px;
+    height: 420px;
+}
+
+.experience-box > h3{
+    color: #ffffff;
+}
+
+.experience-box > p{
+    color: #ffffff;
+}
+
+.experience-box{
+    transition: transform 0.3s ease;
+}
+
+
+.experience-box:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+
+
+/* This is the fifth container setion */
+
+
+.fifth-container{
+    margin-top: 60px;
+    height: 400px;
+}
+
+.fifth-container > h1{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+}
+
+.host-options-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.host-option{
+    transition: transform 0.3s ease;
+}
+
+.host-option:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.host-option > img{
+    border-radius: 10px;
+    width: 420px;
+    height: 280px;
+}
+
+.host-option >p{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* This is footer section */
+
+.footer{
+    height: 430px;
+    background-color: #f1efef9c;
+    border-top:  1px solid rgb(219, 214, 214) 
+}
+
+.footer-container{
+    margin-top: 20px;  
+}
+
+.footer-sections{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    justify-content: center;
+    justify-self: center;
+    padding: 20px; 
+    height: 293px;
+    width: 1300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: 1px solid rgb(172, 171, 171);
+}
+
+.footer-section p {
+    line-height: 1.8; /* Adjust to preference */
+}
+
+.footer-section p:first-of-type{
+    font-size: 13px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    width: 1340px;
+    margin-top: 15px;
+}
+
+.footer-section p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-legal span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-lang-currency > span {
+    margin-right: 10px;
+}
+
+.footer-lang-currency > span:hover{
+    cursor: pointer;
+}
+
+.footer-social > img {
+    cursor: pointer;
+}
